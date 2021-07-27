@@ -1,0 +1,30 @@
+.form {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 20px;
+  text-align: left;
+}
+
+.schIcons {
+  width: 50%;
+}
+
+.ant-steps-item-process .ant-steps-item-icon {
+  background: #c85366 !important;
+  border: none;
+}
+
+@media only screen and (max-width: 640px) {
+  p {
+    font-size: 14px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  .schIcons {
+    width: 100%;
+  }
+}

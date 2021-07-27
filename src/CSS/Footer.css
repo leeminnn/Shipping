@@ -1,0 +1,21 @@
+.footer {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.footer-content {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+@media only screen and (max-width: 640px) {
+  .footer {
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+  .footer-content {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}

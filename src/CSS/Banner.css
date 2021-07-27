@@ -1,0 +1,33 @@
+.banner_contents {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banner_buttons {
+  font-size: 20px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.banner_title {
+  color: black;
+  font-size: 3rem;
+  font-weight: 800;
+  padding-bottom: 0.3rem;
+}
+
+@media only screen and (max-width: 640px) {
+  .banner_title {
+    font-size: 32px;
+    font-weight: 800;
+  }
+  .banner_buttons {
+    font-size: 32px;
+  }
+}

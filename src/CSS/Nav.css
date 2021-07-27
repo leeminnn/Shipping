@@ -1,0 +1,23 @@
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  height: auto;
+  z-index: 1;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+.nav_logo {
+  position: fixed;
+  left: 5%;
+  width: 7%;
+  object-fit: contain;
+}
+
+@media only screen and (max-width: 640px) {
+  .nav_logo {
+    width: 15%;
+  }
+}
