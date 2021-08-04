@@ -16,7 +16,7 @@
 }
 
 .banner_title {
-/*   color: white; */
+  color: white !important;
   font-size: 3rem;
   font-weight: 800;
   padding-bottom: 0.3rem;
